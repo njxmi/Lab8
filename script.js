@@ -12,19 +12,18 @@ var items = [
 	
 items.forEach(function(item){
 		
-		var food = document.createElement("li");
-food.innerHTML = item.name + " $" + item.price.toFixed(2);
-list.appendChild(food);
+	var food = document.createElement("li");
+		food.innerHTML = item.name + " $" + item.price.toFixed(2);
+		list.appendChild(food);
 		
-	});
+});
 
 	var runningTotal = 0;
-	items.forEach(function(item) {	
-	
+		items.forEach(function(item) {	
 		runningTotal += item.price; //price of each grocery
 		document.getElementById("total").innerHTML = "$" + runningTotal.toFixed(2);
-	});
-			console.log ("$" + runningTotal.toFixed(2));
+});
+	console.log ("$" + runningTotal.toFixed(2));
 			 		 
 	
 // In Michigan sales tax is not actually collected on groceries, but may be used in this exercise regardless

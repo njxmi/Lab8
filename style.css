@@ -2,7 +2,7 @@
 
 //the body codes are not changing anything
 body {
- "background-color:#C0BBBA;"
+ background-color:#C0BBBA;
 }
 
 div.wrapper {
@@ -18,7 +18,7 @@ div.wrapper {
 
 h3 {
     text-align: left;
-	color: #C0BBBA;
+	color: #001A57;
 }
 
 wrapper {
